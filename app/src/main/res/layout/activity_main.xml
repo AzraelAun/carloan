@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtOutput.Interest"
+        android:layout_width="221dp"
+        android:layout_height="23dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.397"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        tools:layout_editor_absoluteY="472dp" />
+
+    <TextView
+        android:id="@+id/txtOutput.Carloan"
+        android:layout_width="221dp"
+        android:layout_height="23dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.397"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <TextView
+            android:id="@+id/editText.Loan"
+            android:layout_width="200dp"
+            android:layout_height="22dp"
+            android:layout_marginEnd="16dp"
+            android:digits="0123456789."
+            android:inputType="number"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="DuplicateIds,MissingConstraints"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <TextView
+            android:id="@+id/editText.CarPrice"
+            android:layout_width="249dp"
+            android:layout_height="23dp"
+            android:layout_marginEnd="16dp"
+            android:digits="0123456789."
+            android:inputType="number"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="DuplicateIds,MissingConstraints"
+            tools:layout_editor_absoluteY="70dp" />
+
+        <TextView
+            android:id="@+id/editText.Down"
+            android:layout_width="137dp"
+            android:layout_height="23dp"
+            android:layout_marginEnd="16dp"
+            android:digits="0123456789."
+            android:inputType="number"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="DuplicateIds,MissingConstraints"
+            tools:layout_editor_absoluteY="113dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Car Loan Calculator"
+            android:textSize="24sp"
+            tools:ignore="DuplicateIds,MissingConstraints"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="  Car Price : RM"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            tools:ignore="DuplicateIds,MissingConstraints"
+            tools:layout_editor_absoluteX="7dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="  Down Payment Amount : RM"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            tools:ignore="DuplicateIds,MissingConstraints"
+            tools:layout_editor_absoluteX="7dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="  Loan Period (year) : "
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            tools:ignore="DuplicateIds,MissingConstraints"
+            tools:layout_editor_absoluteX="7dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="  Interest Rate : "
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            tools:ignore="DuplicateIds,MissingConstraints"
+            tools:layout_editor_absoluteX="7dp" />
+
+        <TextView
+            android:id="@+id/editText.Interest"
+            android:layout_width="238dp"
+            android:layout_height="23dp"
+            android:layout_marginEnd="16dp"
+            android:digits="0123456789."
+            android:inputType="number"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="DuplicateIds,MissingConstraints"
+            tools:layout_editor_absoluteY="202dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="336dp"
+        android:text="Result"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/editText.Loan"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="16dp"
+        android:inputType="number"
+        android:digits="0123456789."
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <TextView
+        android:id="@+id/editText.CarPrice"
+        android:layout_width="249dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="16dp"
+        android:inputType="number"
+        android:digits="0123456789."
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <TextView
+        android:id="@+id/editText.Down"
+        android:layout_width="137dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="16dp"
+        android:inputType="number"
+        android:digits="0123456789."
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Car Loan Calculator"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="  Car Price : RM"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:layout_editor_absoluteX="7dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="  Down Payment Amount : RM"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:layout_editor_absoluteX="7dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="  Loan Period (year) : "
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:layout_editor_absoluteX="7dp"
+        tools:ignore="DuplicateIds,MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="  Interest Rate : "
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:layout_editor_absoluteX="7dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/editText.Interest"
+        android:layout_width="238dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="16dp"
+        android:inputType="number"
+        android:digits="0123456789."
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.488"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Car Loan :"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.107"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="12dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="28dp"
+        android:text="Interest : "
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintEnd_toStartOf="@+id/txtOutput.Interest"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:text="Monthly Repayment :"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="12dp" />
+
+    <TextView
+        android:id="@+id/txtOutput.Repayment"
+        android:layout_width="193dp"
+        android:layout_height="24dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.836"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        tools:layout_editor_absoluteY="523dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
